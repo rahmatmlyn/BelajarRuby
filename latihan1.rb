@@ -6,11 +6,17 @@ angka = gets.chomp.to_i
 
 if angka == 100000
     puts "Hutang telah lunas"
-    utang = 0 
+    sisautang = utang - angka
 
-else angka < 100000
+elsif  angka < 100000
     puts "Hutang anda belum lunas, mohon cek kembali hutang anda"
+    sisautang = utang - angka
+
     
+else angka > 100000
+    puts "Terima kasih sudah melebihkan"
+    sisautang = 0
 end
 
-puts "Terimakasih sudah melakukan transaksi"
+puts "Terimakasih sudah melakukan transaksi
+Sisa Hutang anda sekarang : #{sisautang}"
