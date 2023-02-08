@@ -1,4 +1,4 @@
-#case disini mirip dengan if namun dapat melakukan sebuah kondisi berulang dan lebih simple
+#case disini mirip dengan if namun kita dapat membuat banyak kondisi tanpa harus mengulangi perintah if
 # diawali case dan diakhiri end
 
 angka = 2
