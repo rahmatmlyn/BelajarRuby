@@ -1,17 +1,17 @@
 # Unless merupakan kebalikan dari if yang harus berisi true
 # yaitu kondisi dari unless ini harus berisi false agar bisa masuk ke hal yang akan kita lakukan
 
-angka = 34
 
-unless angka == 345
-    puts "di dalam unless"
+3.times do 
+#merupakan command untuk mengulangi suatu perintah di dalamnya contoh
+    puts "Masukkan Angka dahulu"
+    angka = gets.chomp.to_i
 
-else
-    puts "di luar unless"
+    unless angka < 34
+        puts "di dalam unless"
+
+    else
+        puts "di luar unless"
+    end
 end
 
-unless angka > 34
-puts "Nilai unless"
-else
-puts "Nilai benar"
-end
