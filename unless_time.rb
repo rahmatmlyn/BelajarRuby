@@ -4,6 +4,7 @@
 
 3.times do 
 #merupakan command untuk mengulangi suatu perintah di dalamnya contoh
+#mirip perulangan
     puts "Masukkan Angka dahulu"
     angka = gets.chomp.to_i
 
