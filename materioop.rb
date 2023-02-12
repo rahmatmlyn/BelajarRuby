@@ -58,9 +58,11 @@ class Orang
     
 end
 
-# lalu kita tentukan berapa umur 
+# lalu kita tentukan berapa umur tersebut di bagian kita membuat object
 orang = Orang.new(21)
 orang.umurorang()
+
+# metode ini memungkinkan kita untuk membuat banyak objek tanpa harus menulis ulang dari satu class yang sama
 
 orang = Orang.new(31)
 orang.umurorang()
