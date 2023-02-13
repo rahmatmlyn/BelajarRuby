@@ -158,3 +158,5 @@ end
 
 publik = CobaProtected.new(88)
 publik.ambil
+
+# ketika kita menjalankan program diatas maka hasilnya akn muncul nilai public : 88 yang berati kita berhasil memanggil metode yang berada di protected dengan waris/inheritance
